@@ -53,6 +53,13 @@ input:hover {
     box-shadow: 8px 8px 0 -2px var(--clr-button-shadow), 8px 8px 0 0 black;
 }
 
+input:active {
+    transform: translate(4px, 4px);
+    /* box-shadow: -8px -8px 0 -2px var(--clr-button-shadow), -8px -8px 0 0 black; */
+    box-shadow: none;
+
+}
+
 
 form .display {
     display: flex;
